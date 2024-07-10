@@ -1,0 +1,75 @@
+h1  {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  line-height: 56px; /*altura da linha*/
+
+  margin-bottom: 32px;   /*margem para baixo*/
+}
+
+h1 span {   /* pegar o span dentro do h1*/
+  font-weight: bold;
+}
+
+p, #footer {
+  font-family: "Open Sans", sans-serif;
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+}
+
+#hero {
+  width: 592px;
+  margin: 0px auto 72px;  /* primeiro y(top), dps x (plano cartesiano), dps (bottom) */
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+.line {
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 8px;
+
+  border: 1px solid #ECEFF2;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+/* Top, right, bottom, left */
+
+#hero img {
+  margin-bottom: 32px;
+}
+
+/* ou */
+
+h1  {
+  font-family: "Inter", sans-serif;  
+}
+
+body, p, a {   /* posso adicionar com o uso de "," mais propriedades a minha chave*/
+  font-family: "Open Sans", sans-serif;
+}
+
+/* ou */
+
+body {    /* Body é o corpo, estrutura do resto da página, logo, seria redondante se eu colocasse "p, a" */  
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+/* Adicionando cores as fontes */
+
+span, a {
+  color: #FF9900;
+}
+
